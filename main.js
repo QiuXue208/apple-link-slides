@@ -1,0 +1,20 @@
+$(button1).on('click',function(){
+    $('.images').css({
+        transform:'translateX(0)'
+    })
+})
+$(button2).on('click',function(){
+    $('.images').css({
+        transform:'translateX(-200px)'
+    })
+})
+$(button3).on('click',function(){
+    $('.images').css({
+        transform:'translateX(-400px)'
+    })
+})
+$(button4).on('click',function(){
+    $('.images').css({
+        transform:'translateX(-600px)'
+    })
+})

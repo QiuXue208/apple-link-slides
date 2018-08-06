@@ -1,0 +1,44 @@
+.window{
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    margin:50px auto;
+}
+.wrapper{
+    width:800px;
+    height:350px;
+    border:1px solid grey;
+    border-radius:5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+    margin:20px auto;
+    position: relative;
+}
+.foot{
+    height:50px;
+    width:100%;
+    position: absolute;
+    left:0;
+    bottom:0;
+    background:#f1f1f1;
+    border-top:1px solid grey;
+    border-radius:0 0 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin:0 5px;
+}
+.images{
+    display:flex;
+    flex-wrap: nowrap;
+    transition:transform 0.3s;
+}
+.clearfix::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+h3{
+    text-align: center;
+}
